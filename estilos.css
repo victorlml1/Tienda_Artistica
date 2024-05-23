@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    align-content: center;
+}
+h1{
+    color: beige;
+    font-size: 60PX;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.contenedor1{
+    width: 960px;
+    height: auto;
+    background-color: rgb(15, 12, 59);
+    display: flex;
+    margin: 20px;
+    padding: 30px;
+    border: 3px solid white;
+    margin-left: 100px;
+}
+.subcontenedor{
+    margin: 20px;
+    border: 2px solid beige;
+    height: 240px;
+    text-align: center;
+}
+a{
+    color: beige;
+    text-decoration: none;
+    font-size: 25px; 
+}
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+footer{
+    background-color: #313233f8;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.logo2{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.logo_footer{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 80px;
+}
+.links{
+    margin-right: 5%;
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 16px;
+    color: antiquewhite;
+}
+.iconos{
+    margin-right: 150px;
+    margin-top: -150px;
+    line-height: 0;
+    color: white;
+    font-size: 15px;
+}
